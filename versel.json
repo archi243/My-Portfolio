@@ -1,0 +1,6 @@
+{
+    "routes": [
+      { "src": "Archi Goyal Resume.pdf", "dest": "/public/path-to-pdf-file.pdf" }
+    ]
+  }
+  
