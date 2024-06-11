@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Animations</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <header>
+        <h1>JavaScript Animations</h1>
+        <div class="gallery-controls">
+            <button id="grid-view" onclick="toggleView('grid')">Grid View</button>
+            <button id="list-view" onclick="toggleView('list')">List View</button>
+        </div>
+    </header>
+
+    <div class="gallery">
+        <div class="photo" onclick="openPhotoPage('https://github.com/archi243/Bulge-Effect')">
+            <img src="bubble.png" alt="Photo 3">
+            <p>Creating a Bulge Distortion Effect with WebGL</p>
+        </div>
+        <div class="photo" onclick="openPhotoPage('https://github.com/archi243/Hover-Scroll-Motion')">
+            <img src="scroll.png" alt="Photo 2">
+            <p>Hover Motion Intro Animation</p>
+        </div>
+        <div class="photo" onclick="openPhotoPage('https://github.com/archi243/Interactive-Emitter-Effect')">
+            <img src="mask.png" alt="Photo 1">
+            <p>Custom SVG Cursors with an Interactive Emitter Effect</p>
+        </div>
+        <div class="photo" onclick="openPhotoPage('https://github.com/archi243/Day-Night-Animation')">
+            <img src="daynight.png" alt="Photo 1">
+            <p>Day and Night Animation</p>
+        </div>
+        <div class="photo" onclick="openPhotoPage('https://github.com/archi243/Animated-Animals-in-CSS')">
+            <img src="animals.png" alt="Photo 1">
+            <p>Animated Animals in CSS and SVG</p>
+        </div>
+        <!-- Add more photos as needed -->
+    </div>
+
+    <script src="scripte.js"></script>
+</body>
+</html>
